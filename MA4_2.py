@@ -22,13 +22,13 @@ def main():
 	f = Integer(1)
 	for i in range(10 ,30):
 		fibpy.append(fib_py(i))
-		tidpy.append(pc()-startpy)
+		tidpy.append(float(pc()-startpy))
 	startc = pc()
 	for i in range(10,30):
 		f.set(i)
 		fibc.append(f.fib())
 		tid = pc()
-		tidc.append(tid-startc)
+		tidc.append(float(tid-startc))
 		
 	end = pc()
 	#print(f'tid = {end-start}')
