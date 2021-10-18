@@ -10,7 +10,7 @@ def main():
 	start = pc()
 	f = Integer(1)
 	for i in range(10):
-		print(f.fib(i))
+		print(f.fib())
 		f.set(i)
 		print(f.get())
 	end = pc()
