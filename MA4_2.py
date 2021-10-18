@@ -20,11 +20,11 @@ def main():
 	fibc = []
 	startpy = pc()
 	f = Integer(1)
-	for i in range(30 ,45):
+	for i in range(10 ,30):
 		fibpy.append(fib_py(i))
 		tidpy.append(pc()-startpy)
 	startc = pc
-	for i in range(30,45):
+	for i in range(10,30):
 		f.set(i)
 		fibc.append(f.fib())
 		tidc.append(pc()-startc)
