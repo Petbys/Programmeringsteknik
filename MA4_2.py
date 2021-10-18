@@ -19,18 +19,22 @@ def main():
 	
 	tidpy = []
 	fibpy = []
+	npy = []
 	tidc = []
 	fibc = []
+	nc = []
 	startpy = pc()
 	f = Integer(1)
-	for i in range(10 ,30):
+	for i in range(30 ,45):
 		fibpy.append(fib_py(i))
+		npy.append(i)
 		tid = pc()
 		tidpy.append(round(tid-startpy,2))
 	startc = pc()
-	for i in range(10,30):
+	for i in range(30,45):
 		f.set(i)
 		fibc.append(f.fib())
+		nc.append(i)
 		tid = pc()
 		tidc.append(round(tid-startc,2))
 		
