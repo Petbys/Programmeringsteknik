@@ -16,15 +16,16 @@ Integer::Integer(int n){
 	val = n;
 	}
 
-int Integer::fib()
-{ return _fib(int val)}
+int Integer::fib(){
+	return _fib(val);
+	}
 
 int Integer::_fib(int n)
-{
+	{
     if (n <= 1)
         return n;
-    return _fib(n-1) + _fib(n-2);
-}
+    return ( _fib(n-1) + _fib(n-2));
+	}
 
 // This code is cont
 int Integer::get(){
