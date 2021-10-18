@@ -16,9 +16,8 @@ Integer::Integer(int n){
 	val = n;
 	}
 
-int Integer::fib(){ 
-	return _fib(int val);
-	}
+int Integer::fib()
+{ return _fib(int val)}
 
 int Integer::_fib(int n)
 {
