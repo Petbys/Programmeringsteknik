@@ -27,7 +27,8 @@ def main():
 	for i in range(10,30):
 		f.set(i)
 		fibc.append(f.fib())
-		tidc.append(pc()-startc)
+		tid = pc()
+		tidc.append(tid-startc)
 		
 	end = pc()
 	#print(f'tid = {end-start}')
