@@ -17,10 +17,10 @@ Integer::Integer(int n){
 	}
 
 int Integer::fib(){ 
-	return _fib(int val)
+	return _fib(int val);
 	}
 
-int Integer::_fib(n)
+int Integer::_fib(int n)
 {
     if (n <= 1)
         return n;
