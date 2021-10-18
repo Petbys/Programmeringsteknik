@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 from integer import Integer
+
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from time import perf_counter as pc
 
