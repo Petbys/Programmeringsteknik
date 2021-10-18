@@ -22,17 +22,18 @@ def main():
 	f = Integer(1)
 	for i in range(10 ,30):
 		fibpy.append(fib_py(i))
-		tidpy.append(float(pc()-startpy))
+		tid = pc()
+		tidpy.append(round(tid-startpy,2))
 	startc = pc()
 	for i in range(10,30):
 		f.set(i)
 		fibc.append(f.fib())
 		tid = pc()
-		tidc.append(float(tid-startc))
+		tidc.append(round(tid-startc,2))
 		
 	end = pc()
 	#print(f'tid = {end-start}')
-	plt.plot(tidpy,fibpy,tidc,fibc)
+	plt.plot(fibpy,tidpy,'r',fibc,tidc,'b')
 	plt.savefig('fib.png')
 if __name__ == '__main__':
 	main()
