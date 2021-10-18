@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from integer import Integer
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from time import perf_counter as pc
 
 def fib_py(n):
@@ -32,6 +32,6 @@ def main():
 	end = pc()
 	#print(f'tid = {end-start}')
 	plt.plot(tidpy,fibpy,tidc,fibc)
-	plt.show()
+	plt.savefig('fib.png')
 if __name__ == '__main__':
 	main()
