@@ -23,7 +23,7 @@ def main():
 	for i in range(10 ,30):
 		fibpy.append(fib_py(i))
 		tidpy.append(pc()-startpy)
-	startc = pc
+	startc = pc()
 	for i in range(10,30):
 		f.set(i)
 		fibc.append(f.fib())
