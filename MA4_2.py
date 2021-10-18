@@ -40,7 +40,7 @@ def main():
 		
 	end = pc()
 	#print(f'tid = {end-start}')
-	plt.plot(fibpy,tidpy,'r',fibc,tidc,'b')
+	plt.plot(npy,tidpy,'r',nc,tidc,'b')
 	plt.savefig('fib.png')
 if __name__ == '__main__':
 	main()
