@@ -25,7 +25,7 @@ def main():
 	nc = []
 	startpy = pc()
 	f = Integer(1)
-	for i in range(25 ,40):
+	for i in range(30 ,45):
 		fibpy.append(fib_py(i))
 		npy.append(i)
 		tid = pc()
