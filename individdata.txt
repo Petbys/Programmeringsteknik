@@ -1,0 +1,7 @@
+kim.nilsson@pollax.se	 5  1  3  1  8
+fia.jonsson@pollax.se	 4  6  4  5  3
+bill.ek@pollax.se	 2  9  8  9  9
+my.ehn@pollax.se	 3  9  1  1  4
+bo.gran@pollax.se	 9  1  3  5  6
+eva.ronn@pollax.se	 3  3  0  5  3
+dan.lind@pollax.se	 8  8  7  9  1
